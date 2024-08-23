@@ -39,3 +39,26 @@ console.log(typeof bigNumber) //bigint
 console.log(typeof myFunction) //function
 console.log(typeof heros) //object
 console.log(typeof myObj) // object
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++
+
+//*******************  MEMORY   **********************
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myName="Handral"
+let anotherName=myName  //copy of myName
+anotherName="Jadesha"
+console.log(myName)
+console.log(anotherName)
+
+let userOne={
+    email:"jadesha@gmail.com",
+    upi:"guru@ybl"
+}
+
+let userTwo=userOne
+userTwo.email="handral@gmail.com"
+console.table(userTwo)
+console.table(userOne)
